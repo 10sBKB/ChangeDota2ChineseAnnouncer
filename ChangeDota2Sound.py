@@ -1,3 +1,5 @@
+__auth__ : '10sBKB'
+
 import os
 import tkinter
 from tkinter import filedialog
@@ -318,4 +320,4 @@ class ChangeDota2Sound() :
         return True
 
 ChangeDota2Sound().changeStart()
-
+os.system('pause')
