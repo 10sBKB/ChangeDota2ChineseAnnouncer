@@ -102,7 +102,8 @@ class ChangeDota2Sound() :
                         # 创建路径
                         if self.createDirs(self.notFindDirs) :
                             print('创建目录成功!')
-                            return True
+                            self.changeStart()
+                            quit()
                         else :
                             print('创建目录失败!')
                             return False    
